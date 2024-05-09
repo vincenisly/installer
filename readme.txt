@@ -15,3 +15,5 @@ mkdir test-install && cd test-install && git clone https://github.com/vincenisly
 ****************************************************************************
 
 git clone https://github.com/vincenisly/installer.git && mv installer/composer.json ./ && find ./installer -type f -and ! \( -iwholename '*.cgi' -or -iwholename '*.pl' \) -exec chmod 644 '{}' ';' && rm -r installer && composer install && composer update
+
+Showing you
